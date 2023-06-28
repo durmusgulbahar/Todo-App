@@ -1,0 +1,3 @@
+curl -X POST -H "Content-Type: application/json" -d '{"title": "My first todo", "description": "This is my first todo","done":false}' http://localhost:3000/TodoApp/api/todos
+curl -X POST -H "Content-Type: application/json" -d '{"username": "durmus", "password": "123"}' http://localhost:3000/TodoApp/api/users
+curl -s http://localhost:3000//TodoApp/api/todos | jq
